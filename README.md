@@ -1,15 +1,6 @@
 # OneSignal API for PHP
 
-[![Latest Stable Version](https://poser.pugx.org/norkunas/onesignal-php-api/v/stable)](https://packagist.org/packages/norkunas/onesignal-php-api)
-[![Latest Unstable Version](https://poser.pugx.org/norkunas/onesignal-php-api/v/unstable)](https://packagist.org/packages/norkunas/onesignal-php-api)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/norkunas/onesignal-php-api/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/norkunas/onesignal-php-api/?branch=1.0)
-[![Total Downloads](https://poser.pugx.org/norkunas/onesignal-php-api/downloads)](https://packagist.org/packages/norkunas/onesignal-php-api)
-![CI Status](https://github.com/norkunas/youtube-dl-php/workflows/CI/badge.svg?branch=master)
-[![License](https://poser.pugx.org/norkunas/onesignal-php-api/license)](https://packagist.org/packages/norkunas/onesignal-php-api)
-
 ## Install
-
-Note: All examples are for v2, if you are using PHP <7.3 please read [v1 documentation](https://github.com/norkunas/onesignal-php-api/blob/1.0/README.md).
 
 This packages requires a PSR-18 HTTP client and PSR-17 HTTP factories to work. You can choose any from
 [psr/http-client-implementation](https://packagist.org/providers/psr/http-client-implementation)
@@ -18,7 +9,7 @@ and [psr/http-factory-implementation](https://packagist.org/providers/psr/http-f
 Example with Symfony HttpClient and nyholm/psr7 http factories, install it with [Composer](https://getcomposer.org/):
 
 ```
-composer require symfony/http-client nyholm/psr7 norkunas/onesignal-php-api
+composer require symfony/http-client nyholm/psr7 mikevercoelen/onesignal-php-api
 ```
 
 And now configure the OneSignal api client:
@@ -197,11 +188,3 @@ $oneSignal->notifications()->history('notification_id', [
     'email' => 'your_email@email.com',
 ]);
 ```
-
-## Questions?
-
-If you have any questions please [open an issue](https://github.com/norkunas/onesignal-php-api/issues/new).
-
-## License
-
-This library is released under the MIT License. See the bundled [LICENSE](https://github.com/norkunas/onesignal-php-api/blob/master/LICENSE) file for details.

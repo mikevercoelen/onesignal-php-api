@@ -1,5 +1,5 @@
 {
-    "name": "norkunas/onesignal-php-api",
+    "name": "mikevercoelen/onesignal-php-api",
     "description": "OneSignal API for PHP",
     "keywords": ["onesignal", "api", "notifications", "push", "apns", "gcm"],
     "license": "MIT",
@@ -7,6 +7,10 @@
         {
             "name": "Tomas Norkūnas",
             "email": "norkunas.tom@gmail.com"
+        },
+        {
+            "name": "Mike Vercoelen",
+            "email": "mike.vercoelen@gmail.com"
         }
     ],
     "require": {
